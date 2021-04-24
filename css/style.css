@@ -68,6 +68,7 @@ body {
 	padding: 20px;
 }
 
+
 .menu-burger {
 	display: block;
 	margin-left: auto;	
@@ -140,15 +141,19 @@ body {
 .header-link {
 	color: #ffffff;
 }
-
-
-.header__logo {
+.header__logo,
+.header__logo1 {
 	margin: 0 auto;
 	width: 269px;
 	height: 61px;	
 }
-.header__title h1 {
-	margin-top: 34px;	
+.header__logo1 {
+	display: none;
+}
+.header__title {
+	margin-top: 34px;
+}
+.header__title h1 {		
 	font-size: 26px;
 	letter-spacing: -0.9px;
 	line-height: 36px;
@@ -216,7 +221,7 @@ body {
 .trend__content {
 	width: 100%;
 	border: 3px solid #b59f5b;
-	padding: 23px 17px 21px;
+	padding: 29px 29px 30px;
 	position: relative;
 	z-index: 3;
 }
@@ -256,12 +261,15 @@ body {
 	margin-top: 6px;
 	letter-spacing: 0.1px;	
 }
-.trend__title a,
-.new__title a {
+.trend__title,
+.new__title {
 	font-size: 16px;
 	line-height: 20px;	
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.trend__title a,
+.new__title a {
 	color: #ffffff;
 }
 .trend__title a:hover,
@@ -369,12 +377,14 @@ body {
 	color: rgba(0, 0, 0, 0.54);
 	margin-top: -3px;
 }
-.aside__title a {
+.aside__title {
 	margin-top: 3px;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.aside__title a {		
 	color: #000000;
 }
 .aside__title a:hover {
@@ -568,11 +578,13 @@ background-color: #323232;
 	position: relative;
 	top: -33px;
 }
-.product__title a {
+.product__title {
 	font-size: 17px;
 	line-height: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+.product__title a {
 	color: #0f0d0e;
 }
 .product__discription {
