@@ -63,19 +63,20 @@
 	line-height: 22px;	
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (min-width: 1200px) {
 	.trend-item {
 		width: calc(25% - 1px);
+		min-height: 320px;
 		margin-right: 1px;
 		display: flex;
 	}
 	.trend-item:nth-child(even) {
-		margin-left: 0;
-	}
+			margin-left: 0;
+		}
 	.trend-item:last-child {
 		width: 25%;
 		margin-right: 0;
-	}	
+	}
 }
 
 
@@ -136,7 +137,7 @@
 .meta-list {
    margin-top: 31px;
  }
- .blogs {
+.blogs {
    margin-top: 45px;
 }
 .products {
@@ -156,6 +157,12 @@
 	}
 	.product-item {
 		width: 50%;
+	}
+}
+@media (min-width: 768px) and (max-width: 790px) {
+	.product__content {
+    	width: 335px;
+    
 	}
 }
 .products-heading {

@@ -20,6 +20,7 @@ a{text-decoration: none;}
 	font-style: normal;
 }
 
+
 body {
 	overflow-x: hidden;
 }
@@ -229,7 +230,7 @@ body {
 	display: flex;	
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape), (min-width: 641px)  {
 	.trend-items {
 		display: flex;
 		flex-wrap: wrap;
@@ -599,6 +600,7 @@ background-color: #323232;
 	justify-content: space-between;
 }
 .product__price {
+	font-family: \20BD;
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 24px;
@@ -832,8 +834,8 @@ background-color: #323232;
 	margin-top: 10px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	width: 100%;
-	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
 	min-height: 130px;
 	max-height: 200px;
 	padding: 20px;

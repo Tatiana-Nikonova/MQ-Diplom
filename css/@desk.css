@@ -1,4 +1,4 @@
-.wrap {border: 1px solid #000;
+.wrap {
 	max-width: none;
 	min-width: 1200px;
 		
@@ -39,6 +39,7 @@
 	position: relative;
 	height: auto;
 	padding: 0;
+	overflow: hidden;
 }
 .header-link {
 	margin: 0;
@@ -213,7 +214,7 @@
    margin-top: 25px;
 }
 .products {
-	min-width: 1227px;
+	min-width: 1200px;
    margin-top: 5px;   
    margin: 0 auto;
 }
