@@ -120,7 +120,10 @@
 .new__image {
 	width: 381px;
 	height: 294px;
-}			
+}	
+.new__image img {
+	max-width: none;
+}		
 .main__new:nth-child(n+2) {
 	margin-top: 60px;
 }

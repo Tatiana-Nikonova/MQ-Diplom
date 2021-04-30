@@ -84,6 +84,12 @@
 	display: flex;
 	padding: 0 35px;
 }
+@media (min-width: 641px) and (max-width: 680px) {
+	.big-container {
+	   display: flex;
+	   padding: 0px 10px;
+	}
+}
 
 .main__column {
 	padding: 51px 0 0 0;
